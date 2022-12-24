@@ -126,20 +126,16 @@ function App() {
                 </tr>
               </thead>
               <tbody>
-
-                {
-
-                }
                 <tr>
                   <td>
-                    {view.name}
+                    {view?.name}
                   </td>
                   <td>
-                    {view.sectors
+                    {view?.sectors
                     }
                   </td>
                   <td>
-                    {view.terms}
+                    {view?.terms}
                   </td>
                 </tr>
 
